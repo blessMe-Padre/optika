@@ -7,9 +7,10 @@ export const initSlider = () => {
                 delay: 3000
             },
             speed: 3000,
+            loop: true,
             // effect: "fade",
             direction: 'horizontal',
-            spaceBetween: 15,
+            spaceBetween: 30,
             slidesPerView: 1,
             equalHeight: true,
 

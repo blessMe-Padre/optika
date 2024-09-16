@@ -5,6 +5,7 @@
     line-height: 1.27;
     text-transform: uppercase;
     color: #101010;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {

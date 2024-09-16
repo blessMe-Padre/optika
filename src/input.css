@@ -10,6 +10,7 @@
 @import './block/animateSocialsBtn.css';
 @import './block/header.css';
 @import './block/title.css';
+@import './block/features.css';
 
 /* Импорт TailWind */
 @tailwind base;
