@@ -16,6 +16,13 @@
 @tailwind utilities;
 
 
+:root {
+    --black: #101010;
+    --dark-gray: #808080;
+    --light-gray: #d1d1d1;
+}
+
+
 @layer base {
     html {
         scroll-behavior: smooth;

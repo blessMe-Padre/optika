@@ -17,32 +17,22 @@
 <body class="wrapper">
     
     <div class="">
-        <header class="z-10 w-full md-28 transition-colors pt-[20px]"> 
+        <header class="z-10 w-full md-28 transition-colors pt-[20px] header"> 
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__item">
+                        <img class="header__logo " src="./src/img/icons/logo.svg" alt="logo" />
 
-            <div class="container flex items-center justify-between">
-
-                <div>
-                    <img src="./src/img/icons/logo.svg" alt="logo" />
-                </div>         
-
-                <div class="flex items-center justify-center gap-[20px]">
-                    <div>
-                        <a href="/catalog" class="bg-black text-white py-[10px] px-[20px]">
-                          Каталог
-                        </a>
-                    </div>
-
-                   <div>
-                        <div class="relative border-gray border rounded-[2px] w-[480px] py-[5px]">
-                            <div class="pl-[30px]">
-                                <input class="" type="search" placeholder="Поиск по товарам...">
-                            </div>
-                            <div class="pl-[10px]">
-                                <img src="./src/img/icons/search.svg" alt="Search" class="h-6 w-6 absolute top-1/2 left-0 transform -translate-y-1/2"/>
+                        <div class="flex items-center gap-[20px] w-full">
+                            <a href="/catalog" class="bg-black text-white py-[10px] px-[20px]">Каталог</a>
+                            <div class="relative flex items-center gap-[20px] w-full">
+                                <input class="search-input" type="search" placeholder="Поиск по товарам...">
+                                    <img src="./src/img/icons/search.svg" alt="Search" class="h-6 w-6 absolute top-1/2 left-[5px] transform -translate-y-1/2"/>
                             </div>
                         </div>
-                   </div>
-                </div>
+
+                    </div>
+
                 <div class="flex gap-[40px]">
                      <div class="flex gap-[28px] items-center justify-center">
                          <a href="" class="text-black md:text-[16px] text-[12px]">Услуги</a>
@@ -66,7 +56,8 @@
                     </button>
 
                  </div>
-          
+
+                </div> 
             </div>
         </header>
 
