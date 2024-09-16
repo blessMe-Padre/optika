@@ -1,0 +1,7 @@
+.header-popup-link {}
+
+@media (max-width: 767px) {
+    .header-popup-link {
+        display: none;
+    }
+}

@@ -1,17 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* Импорт шрифтов */
 
 /* Импорт кастомных стилей для компонентов */
 
-.up {
-  font-weight: bold;
-  transition: all 0.6s ease-in-out;
-  z-index: 1;
+.btn-close-menu {
+  --color: #262626;
+  padding: 0;
+  margin: 0;
+  /* outline: none; */
+  position: relative;
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-appearence: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #ffffff;
+  display: none;
 }
 
-.up:hover {
-  box-shadow: inset 0 -3.25em 0 0 #fcbc40;
+.btn-close-menu svg {
+  width: 64px;
+  height: 48px;
+  top: -6px;
+  left: -14px;
+  stroke: var(--color);
+  stroke: #101010;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  display: block;
+}
+
+.btn-close-menu svg path {
+  transition: stroke-dasharray var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s), stroke-dashoffset var(--duration, 0.85s) var(--easing, ease) var(--delay, 0s);
+  stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
+  stroke-dashoffset: var(--offset, 126px);
+  transform: translateZ(0);
+}
+
+.btn-close-menu svg path:nth-child(2) {
+  --duration: 0.7s;
+  --easing: ease-in;
+  --offset: 100px;
+  --array-2: 74px;
+}
+
+.btn-close-menu svg path:nth-child(3) {
+  --offset: 133px;
+  --array-2: 107px;
+}
+
+.btn-close-menu.active svg path {
+  --offset: 57px;
+}
+
+.btn-close-menu.active svg path:nth-child(1),
+.btn-close-menu.active svg path:nth-child(3) {
+  --delay: 0.15s;
+  --easing: cubic-bezier(0.2, 0.4, 0.2, 1.1);
+}
+
+.btn-close-menu.active svg path:nth-child(2) {
+  --duration: 0.4s;
+  --offset: 2px;
+  --array-1: 1px;
+}
+
+.btn-close-menu.active svg path:nth-child(3) {
+  --offset: 58px;
+}
+
+@media (max-width: 767px) {
+  .btn-close-menu {
+    display: block;
+  }
 }
 
 .btn__menu--mobile {
@@ -370,6 +434,15 @@
 }
 
 /*  */
+
+.header-popup-link {
+}
+
+@media (max-width: 767px) {
+  .header-popup-link {
+    display: none;
+  }
+}
 
 /* Импорт TailWind */
 
@@ -824,15 +897,10 @@ html {
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #262626;
   background: linear-gradient(166deg, #FFF 5.27%, rgba(255, 255, 255, 0.00) 78.75%);
   font-weight: 400;
-}
-
-h2, h3 {
-  font-family: 'NokiaKokia';
-  line-height: 85px;
 }
 
 *, ::before, ::after{
@@ -1254,32 +1322,6 @@ h2, h3 {
   transition-duration: 150ms;
 }
 
-/* Зарегистрируйте пользовательское семейство шрифтов и сообщите браузеру, где его найти. */
-
-@font-face {
-  font-family: 'Noto Sans';
-
-  src: url('../src/fonts/NotoSans-Regular.ttf');
-
-  font-weight: normal;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NokiaKokia';
-
-  src: url('../src/fonts/NokiaKokia\(RYS\ BY\ LYAJKA\).ttf');
-
-  font-weight: normal;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
 /* Директивы классов */
 
 .swiper-pagination-bullet {
@@ -1333,10 +1375,6 @@ h2, h3 {
   /* background: rgba(20, 19, 19, 0.8); */
   box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
   padding-bottom: 10px;
-}
-
-.title {
-  line-height: 85px !important;
 }
 
 @media (min-width: 1024px){

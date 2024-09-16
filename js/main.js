@@ -11,6 +11,6 @@ window.addEventListener('DOMContentLoaded', () => {
     baguetteBox.run('.gallery-wrapper');
     initSlider();
     initPopup();
-    
+
 
 });
