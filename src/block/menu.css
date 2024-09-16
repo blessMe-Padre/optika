@@ -4,10 +4,11 @@
     opacity: 0;
     visibility: hidden;
     height: 100vh;
+    width: 100%;
     position: fixed;
     left: 0%;
     top: 0;
-    padding: 20px;
+    padding: 100px 20px;
     overflow: auto;
 }
 
@@ -15,23 +16,16 @@
 .mobile-menu.is-active {
     opacity: 1;
     visibility: visible;
-    z-index: 999;
+    z-index: 20;
 }
 
-.menu {
-    background-color: rgba(44, 44, 44, 0.80);
-    transition: opacity 0.8s ease;
-    opacity: 0;
-    visibility: hidden;
 
-    position: fixed;
-    top: 80px;
-    left: 20px;
-    padding: 20px;
-}
-
-.menu.is-active {
-    opacity: 1;
-    visibility: visible;
-    z-index: 999;
+.mobile-menu a {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #101010;
+    display: block;
+    margin-bottom: 20px;
 }

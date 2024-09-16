@@ -162,34 +162,28 @@
   opacity: 0;
   visibility: hidden;
   height: 100vh;
+  width: 100%;
   position: fixed;
   left: 0%;
   top: 0;
-  padding: 20px;
+  padding: 100px 20px;
   overflow: auto;
 }
 
 .mobile-menu.is-active {
   opacity: 1;
   visibility: visible;
-  z-index: 999;
+  z-index: 20;
 }
 
-.menu {
-  background-color: rgba(44, 44, 44, 0.80);
-  transition: opacity 0.8s ease;
-  opacity: 0;
-  visibility: hidden;
-  position: fixed;
-  top: 80px;
-  left: 20px;
-  padding: 20px;
-}
-
-.menu.is-active {
-  opacity: 1;
-  visibility: visible;
-  z-index: 999;
+.mobile-menu a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #101010;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .scroll-top {
@@ -445,10 +439,20 @@
   gap: 20px;
 }
 
+.header__wrapper a {
+  white-space: nowrap;
+}
+
 .header__item {
   display: flex;
-  width: 100%;
+  width: 50%;
   gap: 20px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 .search-input {
@@ -461,11 +465,72 @@
 }
 
 .header-popup-link {
+  padding: 10px 20px;
+}
+
+.header__social-wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header__social-img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  flex: 0 0 auto;
+}
+
+.header__logo-mobile {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .header__wrapper {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__item {
+    width: 100%;
+  }
+
+  .header__logo-mobile {
+    display: block;
+    width: 137px;
+    height: 35px;
+  }
+
+  .header__block {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__links a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-popup-link {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
-  .header-popup-link {
+  .header__links {
     display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__logo-mobile {
+    width: 100px;
+    height: 25px;
   }
 }
 
@@ -1096,6 +1161,10 @@ body {
   z-index: 10;
 }
 
+.z-30{
+  z-index: 30;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -1103,6 +1172,10 @@ body {
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.mb-7{
+  margin-bottom: 1.75rem;
 }
 
 .mr-2{
@@ -1178,16 +1251,8 @@ body {
   gap: 1rem;
 }
 
-.gap-\[16px\]{
-  gap: 16px;
-}
-
 .gap-\[20px\]{
   gap: 20px;
-}
-
-.gap-\[28px\]{
-  gap: 28px;
 }
 
 .gap-\[40px\]{
@@ -1319,6 +1384,7 @@ body {
 
 :root {
   --black: #101010;
+  --white: #ffffff;
   --dark-gray: #808080;
   --light-gray: #d1d1d1;
 }
