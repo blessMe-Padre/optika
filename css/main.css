@@ -534,6 +534,21 @@
   }
 }
 
+.title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 1.429rem + 2.232vw, 3.438rem);
+  line-height: 1.27;
+  text-transform: uppercase;
+  color: #101010;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
 /* Импорт TailWind */
 
 /* ! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com */
