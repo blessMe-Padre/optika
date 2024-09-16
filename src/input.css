@@ -11,6 +11,7 @@
 @import './block/header.css';
 @import './block/title.css';
 @import './block/features.css';
+@import './block/category-section.css';
 
 /* Импорт TailWind */
 @tailwind base;
@@ -78,22 +79,19 @@
     overflow: hidden;
 }
 
-.important {
-    background-image: url('../src/img/pattern-3.png');
-    background-repeat: no-repeat;
-    background-position: right;
+.image-wrapper {
+    overflow: hidden;
 }
 
-@media (max-width: 767px) {
-    .important {
-        background-image: none;
-    }
+.image-wrapper:hover img {
+    transform: scale(1.1);
 }
 
-@media (max-width: 1023px) {
-    .hero-bg img {
-        display: none;
-    }
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .header-fix {
