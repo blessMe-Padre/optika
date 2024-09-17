@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="">
+    <meta name="description" content="">
     <title>Находка Оптика</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -15,69 +14,70 @@
 </head>
 
 <body class="wrapper">
+    <!-- <div class="h-screen grid grid-rows-[auto_1fr_auto]"> -->
     
     <header class="z-10 w-full md-28 transition-colors pt-[20px] header"> 
-    <div class="container">
-        <div class="header__wrapper">
-            <div class="header__item">
-                <img class="header__logo" src="./src/img/icons/logo.svg" alt="logo" />
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__item">
+                    <img class="header__logo" src="./src/img/icons/logo.svg" alt="logo" />
 
-                <div class="flex items-center gap-[20px] w-full">
-                    <a href="/catalog" class="bg-black text-white py-[10px] px-[20px]">Каталог</a>
-                    <div class="relative flex items-center gap-[20px] w-full">
-                        <input class="search-input" type="search" placeholder="Поиск по товарам...">
-                            <img src="./src/img/icons/search.svg" alt="Search" class="h-6 w-6 absolute top-1/2 left-[5px] transform -translate-y-1/2"/>
+                    <div class="flex items-center gap-[20px] w-full">
+                        <a href="/catalog" class="bg-black text-white py-[10px] px-[20px]">Каталог</a>
+                        <div class="relative flex items-center gap-[20px] w-full">
+                            <input class="search-input" type="search" placeholder="Поиск по товарам...">
+                                <img src="./src/img/icons/search.svg" alt="Search" class="h-6 w-6 absolute top-1/2 left-[5px] transform -translate-y-1/2"/>
+                        </div>
                     </div>
+
                 </div>
 
+                <div class="header__block flex gap-[40px]">
+                    <img class="header__logo-mobile relative z-30" src="./src/img/icons/logo.svg" alt="logo" />
+
+                    <div class="header__links">
+                        <a href="" class="text-black md:text-[16px] text-[12px]">Услуги</a>
+                        <a href="" class="text-black md:text-[16px] text-[12px]">О нас</a>
+                        <a href="" class="text-black md:text-[16px] text-[12px]">Контакты</a>
+                    </div>
+
+                    <div class="header__social-wrapper">
+                        <img class="header__social-img" src="./src/img/icons/inst_svg.svg" width="35" height="35" alt="instagram">
+                        <img class="header__social-img" src="./src/img/icons/tg_svg.svg" width="35" height="35" alt="telegram">
+
+                        <button class="btn-close-menu z-30">
+                            <svg viewBox="0 0 64 48">
+                                <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                                <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                                <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <a href="#popup1" class="popup-link header-popup-link bg-black text-white w-[165px] text-center border-[2px] py-[10px]">Оставить заявку</a>
+
+                </div>
+
+            </div> 
+
+            <div class="mobile-menu">
+                <ul class="mb-7">
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Медицинские очки</a></li>
+                    <li><a href="#">Солнцезащитные очки</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                    <li><a href="#">Контактные линзы</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+
+                    <div class="header__social-wrapper">
+                        <img class="header__social-img" src="./src/img/icons/inst_svg.svg" width="35" height="35" alt="instagram">
+                        <img class="header__social-img" src="./src/img/icons/tg_svg.svg" width="35" height="35" alt="telegram">
+                </div>
             </div>
-
-            <div class="header__block flex gap-[40px]">
-                <img class="header__logo-mobile relative z-30" src="./src/img/icons/logo.svg" alt="logo" />
-
-                <div class="header__links">
-                    <a href="" class="text-black md:text-[16px] text-[12px]">Услуги</a>
-                    <a href="" class="text-black md:text-[16px] text-[12px]">О нас</a>
-                    <a href="" class="text-black md:text-[16px] text-[12px]">Контакты</a>
-                </div>
-
-                <div class="header__social-wrapper">
-                    <img class="header__social-img" src="./src/img/icons/inst_svg.svg" width="35" height="35" alt="instagram">
-                    <img class="header__social-img" src="./src/img/icons/tg_svg.svg" width="35" height="35" alt="telegram">
-
-                    <button class="btn-close-menu z-30">
-                        <svg viewBox="0 0 64 48">
-                            <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                            <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                            <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
-                        </svg>
-                    </button>
-                </div>
-
-                <a href="#popup1" class="popup-link header-popup-link bg-black text-white w-[165px] text-center border-[2px] py-[10px]">Оставить заявку</a>
-
-            </div>
-
-        </div> 
-
-        <div class="mobile-menu">
-            <ul class="mb-7">
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Медицинские очки</a></li>
-                <li><a href="#">Солнцезащитные очки</a></li>
-                <li><a href="#">Аксессуары</a></li>
-                <li><a href="#">Контактные линзы</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-
-                <div class="header__social-wrapper">
-                    <img class="header__social-img" src="./src/img/icons/inst_svg.svg" width="35" height="35" alt="instagram">
-                    <img class="header__social-img" src="./src/img/icons/tg_svg.svg" width="35" height="35" alt="telegram">
-               </div>
         </div>
-    </div>
     </header>
 
     <main>
@@ -347,11 +347,40 @@
 
     </main>
 
-    <!-- <footer class="footer page-section-3 bg-black pb-10 pt-10 wow fadeInUp" data-wow-delay="0.2s"">
-    <a href="index.html">
-        <img class="m-auto md:w-60 w-44  my-10" src="./src/img/logo.png" alt="Logo">
-    </a>
-    <div class="container flex md:justify-between justify-evenly md:flex-nowrap flex-wrap text-white">
+    <footer class="footer page-section-3 bg-black pb-10 pt-10">
+    <div class="container ">
+        <div class="flex text-white pb-8 footer-border-bottom">
+
+        <div>
+           <img class="mb-8" src="./src/img/footer-logo.svg" width="153" height="40" alt="logo">
+            <ul>
+                <li class="mb-3">
+                    <a class="text-white hover:underline" href="tel:+79147085183">+7 914 708-51-83</a>
+                </li>
+                <li class="mb-3r">
+                    <a class="text-white hover:underline" href="mailto:info@nakhodkaoptik.ru">info@nakhodkaoptik.ru</a>
+                </li>
+            </ul>
+        </div>  
+
+        <div>
+            <p class="">Каталог</p>
+            <ul class="text-gray">
+                <li><a href="#">Медицинские очки</a></li>
+                <li><a href="#">Солнцезащитные очки</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Контактные линзы</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="text-white">
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+
         <div>
             <p class="pb-4">Мы в соц.сетях</p>
             <ul class="flex items-center justify-center gap-4">
@@ -361,50 +390,14 @@
                 </li>  
             </ul>
         </div>
-        <div>
-            <p class="pb-4">Каталог</p>
-            <ul class="text-gray md:text-base text-xs">
-                <li class="pb-8">
-                    Авто с аукционов Японии
-                </li>  
-                <li class="pb-8">
-                    Авто с аукционов Кореи
-                </li>  
-            
-            </ul>
-        </div>
-        <div>
-            <p class="pb-4">Клиентам</p>
-            <ul class="text-gray md:text-base text-xs">
-                <li class="pb-8">
-                    О компании
-                </li>  
-                <li class="pb-8">
-                    Отзывы
-                </li>  
-            </ul>
-        </div>
-        <div>
-            <p class="pb-4">КОНТАКТЫ</p>
-            <ul>
-                <li class="pb-10 pr-8 flex items-center">
-                    <img class="mr-2" src="./src/img/icons_nav/phonw.svg" alt="">
-                    <a href="tel:79020607575">+79020607575, +79020605757</a>
-                </li>
-                <li class="pb-10 pr-8 flex items-center">
-                    <img class="mr-2" src="./src/img/icons_nav/email.svg" alt="">
-                    <a href="mailto:Avtopotencial-DV@mail.ru">Avtopotencial-DV@mail.ru</a>
-                </li>
 
-                
-            </ul>
-        </div>  
+        </div>
     </div>
 
     <div class="container">
-        <div class="flex items-center justify-between text-gray pt-10">
+        <div class="flex items-center justify-between text-white pt-10">
             <div class="md:text-sm text-xs">
-                Компания «Автопотенциал-ДВ»
+                ©<span class="data-span"></span> «Находка Оптик». Все права защищены
             </div>
             <a href="" class="md:text-sm text-xs underline">
                 Политика конфиденциальности
@@ -412,8 +405,9 @@
             </div>    
 
     </div>
-    </footer> -->
+    </footer>
 
+    <!-- </div> -->
     <!-- ОКНО ВОЙТИ -->
     <section id="popup1" class="popup">
     <div class="popup__body">
