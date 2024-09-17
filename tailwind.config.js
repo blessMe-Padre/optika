@@ -14,18 +14,9 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'black': '#202020',
-      'white': '#fff',
-      'red': '#e40604',
-      'yellow': '#fcbc40',
-      'gray': '#868585',
-      'bg-gray': '#303030',
-      'bg-how': '#F6F6F6',
-      'bg-white': '#fef6f6',
-      'bg-black': '#2C2C2C',
-    
-    
-
+      'black': '#101010',
+      'white': '#ffffff',
+      'gray': '#808080',
     },
 
     container: {
