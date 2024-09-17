@@ -4,7 +4,8 @@
 
 .category-section__list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 20px;
 }
 
@@ -16,6 +17,10 @@
     gap: 20px;
     background: #f3f3f3;
     padding: 20px 0;
+}
+
+.category-section__item .image-wrapper {
+    margin-bottom: 20px;
 }
 
 .category-section__item:nth-child(1),
