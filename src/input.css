@@ -12,6 +12,8 @@
 @import './block/title.css';
 @import './block/features.css';
 @import './block/category-section.css';
+@import './block/products-section.css';
+@import './block/card.css';
 
 /* Импорт TailWind */
 @tailwind base;

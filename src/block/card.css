@@ -1,0 +1,9 @@
+.card {}
+
+.card img {
+    background: #f3f3f3;
+}
+
+.card .image-wrapper img {
+    background-color: #f3f3f3;
+}

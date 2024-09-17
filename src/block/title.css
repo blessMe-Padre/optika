@@ -8,6 +8,14 @@
     margin-bottom: 40px;
 }
 
+.title-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
 @media (max-width: 767px) {
     .title {
         font-size: 30px;
