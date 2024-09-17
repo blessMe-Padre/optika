@@ -15,6 +15,7 @@
 @import './block/products-section.css';
 @import './block/card.css';
 @import './block/services.css';
+@import './block/contact.css';
 
 /* Импорт TailWind */
 @tailwind base;
