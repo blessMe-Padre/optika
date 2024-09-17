@@ -89,3 +89,14 @@
   background-color: #ffffff;
   color: #101010;
 }
+
+.default-button--white {
+  background-color: #ffffff;
+  color: #101010;
+}
+
+.default-button--white:hover {
+  color: #ffffff;
+  background-color: #101010;
+  border: 1px solid #ffffff;
+}
