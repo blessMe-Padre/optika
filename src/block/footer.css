@@ -1,6 +1,8 @@
 .footer {}
 
-
+.footer a:hover {
+    text-decoration: underline;
+}
 
 .footer-border-bottom {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -48,4 +50,26 @@
 
 .social-link:hover svg {
     fill: #ffffff;
+}
+
+@media (max-width: 850px) {
+    .footer__wrapper {
+        grid-template-columns: 40% 1fr 1fr;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    .social-list {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .social-list {
+        margin-bottom: 0;
+    }
 }
