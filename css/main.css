@@ -973,6 +973,57 @@
   }
 }
 
+.footer {
+}
+
+.footer-border-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__wrapper {
+  color: #ffffff;
+  max-width: 950px;
+  display: grid;
+  grid-template-columns: 30% 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-link svg {
+  fill: #101010;
+  transition: all 0.3s ease;
+}
+
+.social-link__telegram {
+  margin-left: -5px;
+}
+
+.social-link:hover {
+  background-color: #101010;
+  border-color: #ffffff;
+}
+
+.social-link:hover svg {
+  fill: #ffffff;
+}
+
 /* Импорт TailWind */
 
 /* ! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com */
@@ -1673,16 +1724,8 @@ body {
   align-items: center;
 }
 
-.justify-center{
-  justify-content: center;
-}
-
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-\[20px\]{
@@ -1739,10 +1782,6 @@ body {
 
 .pb-7{
   padding-bottom: 1.75rem;
-}
-
-.pb-8{
-  padding-bottom: 2rem;
 }
 
 .pt-10{
@@ -1873,10 +1912,6 @@ body {
   padding-bottom: 10px;
 }
 
-.footer-border-bottom {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
 .hover\:underline:hover{
   text-decoration-line: underline;
 }
@@ -1889,11 +1924,6 @@ body {
 
   .md\:text-\[16px\]{
     font-size: 16px;
-  }
-
-  .md\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .md\:text-sm{

@@ -16,6 +16,7 @@
 @import './block/card.css';
 @import './block/services.css';
 @import './block/contact.css';
+@import './block/footer.css';
 
 /* Импорт TailWind */
 @tailwind base;
@@ -100,8 +101,4 @@
     /* background: rgba(20, 19, 19, 0.8); */
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
     padding-bottom: 10px;
-}
-
-.footer-border-bottom {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
