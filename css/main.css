@@ -973,6 +973,19 @@
   }
 }
 
+.contact-list {
+  padding: 50px 0;
+}
+
+.contact-list li {
+  margin-bottom: 20px;
+  color: #808080;
+}
+
+.contact-list li strong {
+  color: #101010;
+}
+
 .footer {
 }
 
