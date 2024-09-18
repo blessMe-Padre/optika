@@ -1236,7 +1236,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  overflow: scroll;
 }
 
 .category__header-list li {
@@ -1353,6 +1352,10 @@
     opacity: 1;
     visibility: visible;
     z-index: 60;
+  }
+
+  .category__header-list {
+    overflow-y: scroll;
   }
 }
 
