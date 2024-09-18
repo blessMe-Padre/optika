@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 /* Импорт шрифтов */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); */
 
 /* Импорт кастомных стилей для компонентов */
 
@@ -2014,7 +2014,7 @@ body {
   font-weight: 400;
 }
 
-*, ::before, ::after{
+*, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -2068,7 +2068,7 @@ body {
   --tw-contain-style:  ;
 }
 
-::backdrop{
+::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -2122,7 +2122,7 @@ body {
   --tw-contain-style:  ;
 }
 
-.container{
+.container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -2130,306 +2130,366 @@ body {
   padding-left: 20px;
 }
 
-@media (min-width: 768px){
-  .container{
+@media (min-width: 768px) {
+  .container {
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px){
-  .container{
+@media (min-width: 1024px) {
+  .container {
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px){
-  .container{
+@media (min-width: 1280px) {
+  .container {
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1440px){
-  .container{
+@media (min-width: 1440px) {
+  .container {
     max-width: 1440px;
   }
 }
 
-.container{
+.container {
   max-width: 1480px;
 }
 
-.absolute{
+.absolute {
   position: absolute;
 }
 
-.relative{
+.relative {
   position: relative;
 }
 
-.left-\[5px\]{
+.left-\[5px\] {
   left: 5px;
 }
 
-.top-1\/2{
+.top-1\/2 {
   top: 50%;
 }
 
-.-z-10{
+.-z-10 {
   z-index: -10;
 }
 
-.z-10{
+.z-10 {
   z-index: 10;
 }
 
-.z-30{
+.z-30 {
   z-index: 30;
 }
 
-.m-0{
+.m-0 {
   margin: 0px;
 }
 
-.mb-3{
+.mb-3 {
   margin-bottom: 0.75rem;
 }
 
-.mb-4{
+.mb-4 {
   margin-bottom: 1rem;
 }
 
-.mb-5{
+.mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mb-7{
+.mb-7 {
   margin-bottom: 1.75rem;
 }
 
-.mb-8{
+.mb-8 {
   margin-bottom: 2rem;
 }
 
-.mt-7{
+.mt-7 {
   margin-top: 1.75rem;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.grid{
+.grid {
   display: grid;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
-.h-6{
+.h-6 {
   height: 1.5rem;
 }
 
-.h-screen{
+.h-screen {
   height: 100vh;
 }
 
-.max-h-screen{
+.max-h-screen {
   max-height: 100vh;
 }
 
-.w-6{
+.w-6 {
   width: 1.5rem;
 }
 
-.w-\[165px\]{
+.w-\[165px\] {
   width: 165px;
 }
 
-.w-full{
+.w-full {
   width: 100%;
 }
 
-.max-w-\[170px\]{
+.max-w-\[170px\] {
   max-width: 170px;
 }
 
-.max-w-\[880px\]{
+.max-w-\[880px\] {
   max-width: 880px;
 }
 
-.-translate-y-1\/2{
+.-translate-y-1\/2 {
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.transform{
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.grid-rows-\[auto_1fr_auto\]{
+.grid-rows-\[auto_1fr_auto\] {
   grid-template-rows: auto 1fr auto;
 }
 
-.flex-wrap{
+.flex-wrap {
   flex-wrap: wrap;
 }
 
-.items-center{
+.items-center {
   align-items: center;
 }
 
-.justify-center{
+.justify-center {
   justify-content: center;
 }
 
-.justify-between{
+.justify-between {
   justify-content: space-between;
 }
 
-.gap-2{
+.gap-2 {
   gap: 0.5rem;
 }
 
-.gap-5{
+.gap-5 {
   gap: 1.25rem;
 }
 
-.gap-\[10px\]{
+.gap-\[10px\] {
   gap: 10px;
 }
 
-.gap-\[20px\]{
+.gap-\[20px\] {
   gap: 20px;
 }
 
-.gap-\[40px\]{
+.gap-\[40px\] {
   gap: 40px;
 }
 
-.overflow-hidden{
+.overflow-hidden {
   overflow: hidden;
 }
 
-.rounded-\[6px\]{
+.rounded-\[6px\] {
   border-radius: 6px;
 }
 
-.border-\[2px\]{
+.border-\[2px\] {
   border-width: 2px;
 }
 
-.bg-black{
+.bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(16 16 16 / var(--tw-bg-opacity));
 }
 
-.p-\[10px\]{
+.p-\[10px\] {
   padding: 10px;
 }
 
-.px-\[20px\]{
+.px-\[20px\] {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.py-14{
+.py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
 
-.py-2{
+.py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.py-\[10px\]{
+.py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.pb-10{
+.pb-10 {
   padding-bottom: 2.5rem;
 }
 
-.pb-4{
+.pb-4 {
   padding-bottom: 1rem;
 }
 
-.pb-7{
+.pb-7 {
   padding-bottom: 1.75rem;
 }
 
-.pt-0{
+.pt-0 {
   padding-top: 0px;
 }
 
-.pt-10{
+.pt-10 {
   padding-top: 2.5rem;
 }
 
-.pt-\[20px\]{
+.pt-\[20px\] {
   padding-top: 20px;
 }
 
-.pt-\[30px\]{
+.pt-\[30px\] {
   padding-top: 30px;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.text-start{
+.text-start {
   text-align: start;
 }
 
-.text-\[12px\]{
+.text-\[12px\] {
   font-size: 12px;
 }
 
-.text-sm{
+.text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-xl{
+.text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-xs{
+.text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
-.font-bold{
+.font-bold {
   font-weight: 700;
 }
 
-.text-black{
+.text-black {
   --tw-text-opacity: 1;
   color: rgb(16 16 16 / var(--tw-text-opacity));
 }
 
-.text-gray{
+.text-gray {
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity));
 }
 
-.text-white{
+.text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.underline{
+.underline {
   text-decoration-line: underline;
 }
 
-.transition-colors{
+.transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('../src/fonts/Nunito-ExtraLight.woff2');
+
+  font-weight: 200;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('../src/fonts/Nunito-Regular.woff2');
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('../src/fonts/Nunito-Medium.woff2');
+
+  font-weight: 500;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('../src/fonts/Nunito-SemiBold.woff2');
+
+  font-weight: 600;
+
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+
+  src: url('../src/fonts/Nunito-Bold.woff2');
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  font-display: swap;
 }
 
 :root {
@@ -2492,21 +2552,21 @@ body {
   padding-bottom: 10px;
 }
 
-.hover\:underline:hover{
+.hover\:underline:hover {
   text-decoration-line: underline;
 }
 
-@media (min-width: 1024px){
-  .md\:text-4xl{
+@media (min-width: 1024px) {
+  .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
-  .md\:text-\[16px\]{
+  .md\:text-\[16px\] {
     font-size: 16px;
   }
 
-  .md\:text-sm{
+  .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }

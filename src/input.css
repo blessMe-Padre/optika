@@ -1,5 +1,5 @@
 /* Импорт шрифтов */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); */
 
 /* Импорт кастомных стилей для компонентов */
 @import './block/button.css';
@@ -28,6 +28,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../src/fonts/Nunito-ExtraLight.woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../src/fonts/Nunito-Regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../src/fonts/Nunito-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../src/fonts/Nunito-SemiBold.woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../src/fonts/Nunito-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 :root {
     --black: #101010;
