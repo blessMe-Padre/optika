@@ -20,4 +20,14 @@ export const initNav = () => {
             body.classList.remove('lock');
         });
     });
+
+    // КАТАЛОГ
+    const catalogBtn = document.querySelector('.category__filter-button');
+    const catalogBlock = document.querySelector('.category__filter-block');
+
+    if (catalogBtn && catalogBlock) {
+        catalogBtn.addEventListener('click', () => {
+            catalogBlock.classList.toggle('is-active');
+        });
+    }
 }
