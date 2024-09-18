@@ -34,7 +34,27 @@
 
 .header-popup-link {
     padding: 10px 20px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    border: 1px solid #101010;
 }
+
+.header-popup-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.header-catalog-link {
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    border: 1px solid #101010;
+}
+
+.header-catalog-link:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 
 .header__social-wrapper {
     display: flex;
