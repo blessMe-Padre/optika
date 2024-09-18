@@ -3,6 +3,8 @@ import { initSlider } from "./module/sliders.js";
 import { initPopup } from "./module/popup.js";
 import { initCurrentYear } from "./module/current-year.js";
 import { initAccordions } from "./module/tabs.js";
+import { initPhoneMask } from "./module/phone-mask.js";
+import { initPopupOrders } from "./module/popup-order.js";
 
 
 
@@ -15,4 +17,6 @@ window.addEventListener('DOMContentLoaded', () => {
     initPopup();
     initCurrentYear();
     initAccordions();
+    initPhoneMask();
+    initPopupOrders();
 });

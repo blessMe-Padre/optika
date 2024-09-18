@@ -98,7 +98,7 @@
         <div class="container">
             <div class="main-product__wrapper">
                 <div class="image-wrapper">
-                    <img src="./src/img/product/product-single.png" width="588" height="385" alt="продукт">
+                    <img class="main-product-img" src="./src/img/product/product-single.png" width="588" height="385" alt="продукт">
                 </div>
                 <div class="main-product__info">
                     <h1 class="mb-5 main-product__title">Etnia Barcelona 4 DONATE 56S</h1>
@@ -124,7 +124,7 @@
                     </div>
 
                     <div class="flex items-center gap-5 mt-7">
-                        <a class="default-button popup-link py-2" href="#popup1">Оставить заявку</a>
+                        <a class="default-button popup-link py-2" href="#popup2">Оставить заявку</a>
                         <p class="product__price">34 900<span>&nbsp;₽</span></p>
                     </div>
                     
@@ -193,6 +193,39 @@
             </ul>
         </div>
     </section>
+
+    <!-- Модальное окно для заказа товара -->
+    <section id="popup2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <button class="popup__btn close-popup" aria-label="Закрыть" tabindex="4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 23 18" fill="none">
+                        <path d="M4 1.45508L19.9099 17.365" stroke="#333"/>
+                        <path d="M4.54492 16.9099L20.4548 1.00001" stroke="#333"/>
+                        </svg>
+                </button>
+                <h2 class="text-start text-dark-green z-10  md:text-4xl text-xl pb-7 font-bold">Оформите заказ</h2>
+                <p class="mb-8">Оставьте свои контакты и наш менеджер свяжется с вами для подтверждения</p>
+                
+                <div class="popup-order-wrapper">
+                    <div class="popup-img">
+                        <img class="popup-order-img" src="" alt="">
+                    </div>    
+                    <p class="popup-order-name"></p>
+                </div>
+
+
+                <div class="form-wrapper">
+                    <input type="text" class="form__input" placeholder="Введите Ваше имя" />
+                    <input class="popup-order-hidden-input" type="hidden">
+    
+                    <input type="tel"  class="form__input" name="tel" placeholder="Введите номер телефона">
+                    
+                    <input class="default-button" type="submit" value="Отправить">
+                </div>
+            </div>
+        </div>
+        </section>
 
     </main>
 
