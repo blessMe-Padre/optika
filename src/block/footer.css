@@ -16,6 +16,14 @@
     gap: 20px;
 }
 
+.footer__wrapper li {
+    margin-bottom: 10px;
+}
+
+.footer__wrapper p {
+    margin-bottom: 10px;
+}
+
 .social-list {
     display: flex;
     align-items: center;

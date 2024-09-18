@@ -18,6 +18,8 @@
 @import './block/contact.css';
 @import './block/gallery.css';
 @import './block/consultation.css';
+@import './block/breadcrumbs.css';
+@import './block/main-product.css';
 @import './block/footer.css';
 
 /* Импорт TailWind */
