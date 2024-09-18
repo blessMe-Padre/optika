@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Находка Оптика | Товар</title>
+    <title>Находка Оптика | Каталог</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -80,119 +80,137 @@
     </header>
 
     <main>
-    <h1 class="visually-hidden">Контакты</h1>
+    <h1 class="visually-hidden">Каталог</h1>
 
     <section class="breadcrumbs">
         <div class="container">
             <ul class="breadcrumbs__list">
                 <li><a href="/">Главная</a></li>
                 <li>—</li>
-                <li><a href="/">Каталог</a></li>
-                <li>—</li>
-                <li><span>Etnia Barcelona 4 DONATE 56S</span></li>
+                 <li><span>Каталог</span></li>
             </ul>
         </div>
     </section>
 
-    <section class="main-product">
+    <div class="category">
         <div class="container">
-            <div class="main-product__wrapper">
-                <div class="image-wrapper">
-                    <img src="./src/img/product/product-single.png" width="588" height="385" alt="продукт">
-                </div>
-                <div class="main-product__info">
-                    <h1 class="mb-5 main-product__title">Etnia Barcelona 4 DONATE 56S</h1>
-                    <div class="flex gap-[10px]">
-                        <span class="text-gray">Производитель: </span>
-                        <span class="text-gray">Испания</span>
-                    </div>
-                    <div class="flex gap-[10px]">
-                        <span class="text-gray">Пол: </span>
-                        <span class="text-gray">Жен</span>
-                    </div>
-                    <div class="flex gap-[10px]">
-                        <span class="text-gray">Вид оправы: </span>
-                        <span class="text-gray">Ободковая</span>
-                    </div>
-                    <div class="flex gap-[10px]">
-                        <span class="text-gray">Материал оправы: </span>
-                        <span class="text-gray">Ацетат</span>
-                    </div>
-                    <div class="flex gap-[10px]">
-                        <span class="text-gray">Форма оправы: </span>
-                        <span class="text-gray">Многоугольник</span>
-                    </div>
+            <div class="category__header">
+                <button class="category__filter-button">
+                    <img src="./src/img/icons/filters.svg" width="20" height="20" alt="Фильтровать">
+                    <span>Фильтры</span>
+                </button>
 
-                    <div class="flex items-center gap-5 mt-7">
-                        <a class="default-button popup-link py-2" href="#popup1">Оставить заявку</a>
-                        <p class="product__price">34 900<span>&nbsp;₽</span></p>
-                    </div>
-                    
-                </div>
+                <ul class="category__header-list">
+                    <li>
+                        <a href="#" class="category__header-link is-active">Медицинские очки</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__header-link">Солнцезащитные очки</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__header-link">Аксессуары</a>
+                    </li>
+                    <li>
+                        <a href="#" class="category__header-link">Контактные линзы</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
 
-       <!-- вас может заинтересовать -->
-       <section class="products-section">
-        <div class="container">
-            <h2 class="title">вас может заинтересовать</h2>
-            <ul class="products-section__wrapper">
-                <li class="card">
-                    <a href="#">
-                        <div class="card__img">
-                            <div class="image-wrapper">
-                                <img src="./src/img/product/image-5.png" width="320" height="190" alt="товар">
+            <div class="category__wrapper">
+                <div class="category__filter-block _tabs">
+                    <div class="_tabs-accordion">
+                        <button class="accordion__button _tabs-button">Пол
+                            <svg class="accordion__button-svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4.5" width="1" height="10" fill="#101010" />
+                                <rect x="10" y="4.5" width="1" height="10" transform="rotate(90 10 4.5)" fill="#101010" />
+                              </svg>
+                        </button>
+                        <div class="_tabs-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, consectetur!</p>
+                        </div>
+                    </div>
+                    <div class="_tabs-accordion">
+                        <button class="accordion__button _tabs-button">Возраст
+                            <svg class="accordion__button-svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4.5" width="1" height="10" fill="#101010" />
+                                <rect x="10" y="4.5" width="1" height="10" transform="rotate(90 10 4.5)" fill="#101010" />
+                              </svg>
+                        </button>
+                        <div class="_tabs-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, consectetur!</p>
+                        </div>
+                    </div>
+                    <div class="_tabs-accordion">
+                        <button class="accordion__button _tabs-button">Бренд
+                            <svg class="accordion__button-svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4.5" width="1" height="10" fill="#101010" />
+                                <rect x="10" y="4.5" width="1" height="10" transform="rotate(90 10 4.5)" fill="#101010" />
+                              </svg>
+                        </button>
+                        <div class="_tabs-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, consectetur!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="category__product-list">
+                    <li class="card">
+                        <a href="#">
+                            <div class="card__img">
+                                <div class="image-wrapper">
+                                    <img src="./src/img/product/image-5.png" width="320" height="190" alt="товар">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card__wrapper">
-                            <h3 class="card__title">Nina Ricci</h3>
-                            <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="card">
-                    <a href="#">
-                        <div class="card__img">
-                            <div class="image-wrapper">
-                                <img src="./src/img/product/image-6.png" width="320" height="190" alt="товар">
+                            <div class="card__wrapper">
+                                <h3 class="card__title">Nina Ricci</h3>
+                                <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
                             </div>
-                        </div>
-                        <div class="card__wrapper">
-                            <h3 class="card__title">Etnia Barcelona 4 DONATE 56S</h3>
-                            <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="card">
-                    <a href="#">
-                        <div class="card__img">
-                            <div class="image-wrapper">
-                                <img src="./src/img/product/image-7.png" width="320" height="190" alt="товар">
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <div class="card__img">
+                                <div class="image-wrapper">
+                                    <img src="./src/img/product/image-5.png" width="320" height="190" alt="товар">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card__wrapper">
-                            <h3 class="card__title">Gucci 0340S</h3>
-                            <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="card">
-                    <a href="#">
-                        <div class="card__img">
-                            <div class="image-wrapper">
-                                <img src="./src/img/product/image-8.png" width="320" height="190" alt="товар">
+                            <div class="card__wrapper">
+                                <h3 class="card__title">Nina Ricci</h3>
+                                <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
                             </div>
-                        </div>
-                        <div class="card__wrapper">
-                            <h3 class="card__title">Ultraflex Plus 1 Day 30pk (Somofilcon A)</h3>
-                            <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <div class="card__img">
+                                <div class="image-wrapper">
+                                    <img src="./src/img/product/image-5.png" width="320" height="190" alt="товар">
+                                </div>
+                            </div>
+                            <div class="card__wrapper">
+                                <h3 class="card__title">Nina Ricci</h3>
+                                <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#">
+                            <div class="card__img">
+                                <div class="image-wrapper">
+                                    <img src="./src/img/product/image-5.png" width="320" height="190" alt="товар">
+                                </div>
+                            </div>
+                            <div class="card__wrapper">
+                                <h3 class="card__title">Nina Ricci</h3>
+                                <p class="card__price">18&nbsp;500<span>&nbsp;₽</span></p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-    </section>
+    </div>
 
     </main>
 
@@ -268,6 +286,7 @@
     </div>
     </footer>
 
+    <!-- </div> -->
     <!-- ОКНО ВОЙТИ -->
     <section id="popup1" class="popup">
     <div class="popup__body">
