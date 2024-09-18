@@ -5,6 +5,7 @@ import { initCurrentYear } from "./module/current-year.js";
 import { initAccordions } from "./module/tabs.js";
 import { initPhoneMask } from "./module/phone-mask.js";
 import { initPopupOrders } from "./module/popup-order.js";
+import { cookieConsentChecker } from './module/cookie-consent-checker.js';
 
 
 
@@ -19,4 +20,5 @@ window.addEventListener('DOMContentLoaded', () => {
     initAccordions();
     initPhoneMask();
     initPopupOrders();
+    cookieConsentChecker();
 });
