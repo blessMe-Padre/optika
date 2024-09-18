@@ -1435,6 +1435,24 @@
   fill: #ffffff;
 }
 
+.social-link--header {
+  background-color: #101010;
+  border-color: #ffffff;
+}
+
+.social-link--header svg {
+  fill: #ffffff;
+}
+
+.social-link--header:hover {
+  background-color: #ffffff;
+  border-color: #101010;
+}
+
+.social-link--header:hover svg {
+  fill: #101010;
+}
+
 @media (max-width: 850px) {
   .footer__wrapper {
     grid-template-columns: 40% 1fr 1fr;
